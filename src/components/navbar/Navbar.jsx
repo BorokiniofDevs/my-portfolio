@@ -17,10 +17,18 @@ function Navbar() {
           BorokiniOfDevs
         </motion.span>
         <div className="social">
-          <img src="/facebook.png" alt="" />
-          <img src="/X_logo.jpg" alt="" />
-          <img src="/instagram.png" alt="" />
-          <img src="/linkedIn.png" alt="" />
+          <a href="#">
+            <img src="/facebook.png" alt="" />
+          </a>
+          <a href="#">
+            <img src="/X_logo.jpg" alt="" />
+          </a>
+          <a href="#">
+            <img src="/instagram.png" alt="" />
+          </a>
+          <a href="#">
+            <img src="/linkedIn.png" alt="" />
+          </a>
         </div>
       </div>
     </div>
