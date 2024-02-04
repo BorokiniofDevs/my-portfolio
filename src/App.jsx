@@ -1,12 +1,15 @@
 // import Test from "./Test";
 import "./app.scss";
+import Contact from "./components/contact";
 import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
 import Parallax from "./components/parallax";
+import Portfolio from "./components/portfolio";
 import Services from "./components/services";
 const App = () => {
   return (
     <div>
+      {/* <Cursor /> */}
       <section id="Homepage">
         <Navbar />
         <Hero />
@@ -20,10 +23,13 @@ const App = () => {
       <section id="Portfolio">
         <Parallax type="portfolio" />
       </section>
-      <section>Portfolio1</section>
-      <section>Portfolio2</section>
-      <section>Portfolio3</section>
-      <section id="Contact">Contact</section>
+      <Portfolio />
+      <section id="Contact">
+        <Contact />
+      </section>
+      {/* Framer Motion Crash Course */}
+      {/* <Test/>
+    <Test/> */}
     </div>
   );
 };
