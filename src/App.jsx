@@ -1,6 +1,7 @@
 // import Test from "./Test";
 import "./app.scss";
 import Contact from "./components/contact";
+import Cursor from "./components/cursor";
 import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
 import Parallax from "./components/parallax";
@@ -9,7 +10,7 @@ import Services from "./components/services";
 const App = () => {
   return (
     <div>
-      {/* <Cursor /> */}
+      <Cursor />
       <section id="Homepage">
         <Navbar />
         <Hero />
