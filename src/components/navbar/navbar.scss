@@ -13,7 +13,9 @@
 
         @include mobile {
             justify-content: flex-end;
-            padding: 20px;
+            padding: 20px 10px;
+            width: 100%;
+            overflow-x: none;
         }
 
         span {
@@ -33,6 +35,10 @@
             img {
                 width: 18px;
                 height: 18px;
+            }
+
+             @include mobile {
+                gap: 10px;
             }
         }
     }

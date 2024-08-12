@@ -20,6 +20,7 @@
             gap: 20px;
 
             @include mobile {
+                padding-top: 5%;
                 height: 40%;
                 width: 100%;
                 gap: 20px;
@@ -31,13 +32,17 @@
                 font-size: 25px;
                 color: rebeccapurple;
                 letter-spacing: 10px;
+
+                 @include mobile {
+                    font-size: 18px;
+                }
             }
 
             h1 {
                 font-size: 60px;
 
                 @include mobile {
-                    font-size: 36px;
+                    font-size: 30px;    
                 }
             }
 
@@ -51,6 +56,10 @@
                     margin-right: 20px;
                     // cursor: pointer;
                     font-weight: 300;
+                }
+                 @include mobile {
+                    padding: 10px;
+                    margin-right: 10px;
                 }
             }
 
